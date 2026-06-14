@@ -127,7 +127,7 @@ const GIFTS = [
     "url": "https://www.meta.com/es/quest/quest-3s/buy-now/",
     "image": "https://lookaside.fbsbx.com/elementpath/media/?media_id=717378067408853&version=1772546511&transcode_extension=webp"
   },
-{
+  {
     "id": "regalo-13",
     "name": "Guantes de portero Nike GK Dynamic Fit Azul Claro Talla 6",
     "range": "30€ a 40€",
@@ -135,7 +135,7 @@ const GIFTS = [
     "url": "https://www.futbolmania.com/es/hq0255-395?ads=recurso-free&gad_source=1&gad_campaignid=20424138650&gbraid=0AAAAAD_hrp9lVBGyvmmEEHdwG3fPGBNQx&gclid=Cj0KCQjwornRBhCrARIsAON5exGmGKThuYKU589bRqpg9R--AdN78S4MnPh6-VA-VxblYCTy37F-8hEaAgyWEALw_wcB",
     "image": "https://media.futbolmania.com/media/catalog/product/cache/1//9df78eab33525d08d6e5fb8d27136e95/H/Q/HQ0255-395_guantes-de-portero-color-azul-nike-gk-dynamic-fit_1_completa-dorso-mano-derecha.jpg"
   },
-{
+  {
     "id": "regalo-14",
     "name": "Espinilleras Nike Mercurial Lite Talla XS",
     "range": "30€ a 40€",
@@ -143,7 +143,7 @@ const GIFTS = [
     "url": "https://www.elcorteingles.es/deportes/A56813506-naranja-pr-espinillera-de-futbol-mercurial-nike/",
     "image": "https://dam.elcorteingles.es/producto/www-001008436604626-00.jpg?impolicy=frontWebHQ&shape=square"
   },
-{
+  {
     "id": "regalo-15",
     "name": "Zapatillero Adidas Tiro L Roja",
     "range": "10€ a 20€",
@@ -151,7 +151,6 @@ const GIFTS = [
     "url": "https://www.forumsport.com/es-es/adidas-zapatillero-tiro-l-shoebag-ib8648-1000934025-p",
     "image": "https://www.forumsport.com/medias/medias-1000934025-00-P-X-20230710120439.jpg?context=bWFzdGVyfGltYWdlc3w5NzQ4N3xpbWFnZS9qcGVnfGFHVTRMMmc0Tnk4eE1UVXhOekV5T1RRMU56WTVOQzl0WldScFlYTmZNVEF3TURrek5EQXlOVjh3TUY5UVgxZ3RNakF5TXpBM01UQXhNakEwTXprdWFuQm58Nzk0MDFiN2RhODgxYTVhYjQ1NDU5ZGIzOTBiY2MzZDA5MWIzNDFkZGFlNGFjNjliZDFlYmQ1NDBmOTNmMWFlMg"
   },
-
 ];
 let reservedIds=new Set();let currentFilter="Todos";let selectedGift=null;
 function fallbackImage(gift){return `https://placehold.co/900x620/f1eadb/5f6c4e?text=${encodeURIComponent(gift.name)}`}
